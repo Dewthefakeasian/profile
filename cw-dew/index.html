@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="btn.css">
+    <link rel="stylesheet" href="style.css">
+
+  
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/2e8fe135a3.js" crossorigin="anonymous"></script>
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Importing Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+    </style>
+    <!-- Linking AOS.JS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Meta Stuff -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website Title -->
+    <title>Cubix Worlds</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Main Section -->
+    <div class="bg">
+        <!-- Hamburger -->
+        <div class="hamburger" id="ham" data-aos="fade-left">
+
+            <i class="fa-solid fa-bars" id="open" onclick="showmenu()"></i>
+
+            <i class="fa-solid fa-xmark" id="close" onclick="closemenu()"></i>
+
+            <div class="menu" id="menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#about-cw"><i class="fa-solid fa-address-card"></i>About US</a></li>
+                    <li><a href="#download"><i class="fa-solid fa-rainbow"></i></i>Download</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <div class="nav-bar">
+            <img src="images/logo.png">
+            <ul>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='#about-cw'>About Us</a></li>
+                <li><a href='#download'>Download</a></li>
+
+            </ul>
+        </div>
+
+
+        <!-- Welcome Text -->
+        <div class="welcome-text">
+            <h1>Cubix Worlds</h1>
+            <p>Cubixworlds is an Online MMO Sandbox Game where you can play with your friends and create worlds.</p>
+        </div>
+
+
+        <div class="go-down">
+            <a href="#about-cw"> <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+    
+
+
+
+        <!-- About Us (Page2) -->
+        <div class="page2" id="about-cw">
+            <img src="images/about.png" data-aos="flip-left" data-aos-duration="800">
+
+            <div class="text-info">
+                <p><i class="fa-solid fa-house-chimney"></i>Welcome to Cubix Worlds</p>
+                <h1>About</h1>
+                <p>Cubixworlds is an Online MMO Sandbox Game where you can play with your friends and create worlds.</p>
+            </div>
+        </div>
+
+        <!-- Features (Page3) -->
+        <div class="page3" id="features">
+            <div class="part1">
+                <h1><i class="fa-solid fa-money-bill-trend-up"></i>Trade with players</h1>
+                <img src="images/about.png" data-aos="flip-up" data-aos-duration="800">
+                <p>in Cubixworlds you can trade with players and get better items and get better in the game because it's an MMO SANDBOX game.</p>
+            </div>
+
+            <div class="part2">
+                <h1><i class="fa-solid fa-user-group"></i></i>Play with friends</h1>
+                <img src="images/about.png" data-aos="flip-up" data-aos-duration="800">
+                <p>Cubix Worlds is a multiplayer game that means you can play with your friends and meet other awesome people in the cubix worlds community.</p>
+            </div>
+        </div>
+
+
+
+
+        <!-- Purchase (Page5) -->
+        <div class="page5" id="download">
+            <h1>Download Cubixworlds for free.</h1>
+            <div style="display: flex; justify-content: center;"><iframe width="1020" height="600" src="https://www.youtube.com/embed/3Vm_2TWD8Gw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+    <!-- AOS.JS Workers -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
